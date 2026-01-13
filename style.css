@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    
+    width: fit-content;
 }
 
 .container {
@@ -38,7 +40,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: lightgray;
     font-size: 18px;
 }
 
@@ -62,11 +64,12 @@ a {
 
 .text p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: lightgrey;
+    font-weight: 300;
 }
 
 .text button {
-    margin: 10px 0;
+    margin: 15px 0;
     padding: 8px 30px;
     font-size: 18px;
     color: #F9FAF8;
@@ -74,3 +77,90 @@ a {
     border-style: none;
     border-radius: 9px;
 }
+
+.one {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.one h2 {
+    padding: 40px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.images {
+    display: flex;
+    gap: 50px;
+    width: max-content;
+}
+
+.img img {
+    border-radius: 20px;
+}
+
+.img p {
+    color: rgb(106, 105, 105);
+}
+
+.two {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.two p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.two .credit {
+    width: 200px;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.three .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3883F6;
+    padding: 30px 90px;
+    border-radius: 5px;
+    margin: 70px 0;
+}
+
+.three .action h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 500;
+}
+
+.three .action p {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 300;
+}
+
+
+.three .action button {
+    background-color: #3883F6;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    height: 30px;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+
+
+footer {
+    background-color: #1F2937;
+    padding: 50px 0;
+    text-align: center;
+    color: #E5E7EB;
+}
+
