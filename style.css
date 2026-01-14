@@ -12,6 +12,10 @@ body {
     width: fit-content;
 }
 
+.page {
+    min-width: 1000px;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -143,10 +147,17 @@ a {
     font-weight: 300;
 }
 
+.three .action button {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+}
+
 
 .three .action button {
     background-color: #3883F6;
-    border-color: #F9FAF8;
+    border: #F9FAF8 2px solid;
     border-radius: 5px;
     color: #F9FAF8;
     height: 30px;
